@@ -42,7 +42,6 @@ if (functionIndicator == '2') {
         tokenOut,
         fee,
         recipient,
-        deadline,
         amountOut,
         amountInMaximum,
         sqrtPriceLimitX96

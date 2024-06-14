@@ -16,8 +16,8 @@ if (functionIndicator == '2') {
     const tokenIn = process.argv[3];
     const tokenOut = process.argv[4];
     const recipient = process.argv[5];
-    const amountOut = Number(process.argv[6]);
-    const amountInMaximum = Number(process.argv[7]);
+    const amountOut = process.argv[6];
+    const amountInMaximum = process.argv[7];
 
     v2swap(
         tokenIn,
@@ -31,8 +31,8 @@ if (functionIndicator == '2') {
     const tokenIn = process.argv[3];
     const tokenOut = process.argv[4];
     const recipient = process.argv[5];
-    const amountOut = Number(process.argv[6]);
-    const amountInMaximum = Number(process.argv[7]);
+    const amountOut = process.argv[6];
+    const amountInMaximum = process.argv[7];
     const fee = Number(process.argv[8]);
     const sqrtPriceLimitX96 = Number(process.argv[9]);
 

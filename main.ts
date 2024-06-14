@@ -34,8 +34,7 @@ if (functionIndicator == '2') {
     const amountOut = Number(process.argv[6]);
     const amountInMaximum = Number(process.argv[7]);
     const fee = Number(process.argv[8]);
-    const deadline = Number(process.argv[9]);
-    const sqrtPriceLimitX96 = Number(process.argv[10]);
+    const sqrtPriceLimitX96 = Number(process.argv[9]);
 
     v3swap(
         tokenIn,

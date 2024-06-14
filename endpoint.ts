@@ -79,8 +79,8 @@ export async function v3swap(
             tokenOut,
             fee,
             recipient,
-            amountOutN,
-            amountInMaximumN,
+            amountOut: amountOutN,
+            amountInMaximum: amountInMaximumN,
             sqrtPriceLimitX96
         };
 
